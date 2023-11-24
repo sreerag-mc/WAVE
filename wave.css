@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .a1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 7px;
+    animation: bounce 0.7s infinite alternate;
+  }
+  
+  .a2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 0 7px;
+    animation: bounce 0.7s infinite alternate;
+    animation-delay: 0.1s;
+  }
+  
+  .a3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 0 7px;
+    animation: bounce 0.7s infinite alternate;
+    animation-delay: 0.2s;
+  }
+  .a4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 0 7px;
+    animation: bounce 0.7s infinite alternate;
+    animation-delay: 0.3s;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
